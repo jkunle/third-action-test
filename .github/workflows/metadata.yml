@@ -1,0 +1,8 @@
+name: view metadata
+on: issues
+jobs:
+    metadata:
+     runs-on: ubuntu-latest
+     steps:
+     - name: view metadata
+       run: echo "${{github}}"
